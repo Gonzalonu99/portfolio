@@ -1,0 +1,31 @@
+.bg-myColor{
+    background-color: #015249;
+}
+.navbar-brand{
+    padding-left: 13px;
+    font-size:larger;
+}
+.navbar-nav{
+    padding-left: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.navbar-toggler{
+    margin-right: 5px;
+}
+.dropdown-menu{
+    background-color: #015249;
+    border: none;
+    font-size: 13px;
+}
+.dropdown-item:hover{
+    background-color: #015249;
+    color: #fff;
+}
+@media(min-width: 576px){
+    .navbar-collapse{
+        justify-content: flex-end;
+        margin-right: 20px;
+    }    
+}
+
