@@ -4,6 +4,7 @@
     max-height: 600px;
     flex-wrap: wrap;
     margin-top: 65px;
+    justify-content: space-between;
 }
 .text-container{
     width: 377.5px;
@@ -39,4 +40,15 @@ h2{
     top: -31px;
     left: 15px;
     z-index: 1000;
+}
+@media(min-width:768px){
+     .type-text{
+        font-size: 2.3rem;
+    }
+}
+@media(min-width:920px){
+    .text-container{
+        width: 500px;
+        margin-left: 50px;
+    }
 }
