@@ -1,6 +1,9 @@
 .bg-myColor{
     background-color: #57bc90;
 }
+.navbar{
+    width: 100%;
+}
 .navbar-brand{
     padding-left: 13px;
     font-size:larger;
@@ -8,7 +11,7 @@
     padding: 8px;
 }
 .navbar-nav{
-    padding-left: 13px;
+    padding-left: 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
 }
