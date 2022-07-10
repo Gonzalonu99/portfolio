@@ -1,9 +1,11 @@
 .bg-myColor{
-    background-color: #015249;
+    background-color: #57bc90;
 }
 .navbar-brand{
     padding-left: 13px;
     font-size:larger;
+    display: inline-flex;
+    padding: 8px;
 }
 .navbar-nav{
     padding-left: 13px;
@@ -14,15 +16,18 @@
     margin-right: 5px;
 }
 .dropdown-menu{
-    background-color: #015249;
+    background-color: #57bc90;
     border: none;
     font-size: 13px;
 }
 .dropdown-item:hover{
-    background-color: #015249;
+    background-color: #57bc90;
     color: #fff;
 }
 @media(min-width: 576px){
+    .nav-link{
+        margin-left: 45px;
+    }
     .navbar-collapse{
         justify-content: flex-end;
         margin-right: 20px;

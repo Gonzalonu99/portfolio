@@ -1,0 +1,42 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    max-height: 600px;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+.text-container{
+    width: 377.5px;
+    height: 200px;
+    text-align: start;
+    position: relative;
+    top: 50px;
+    left: 15px;
+    z-index: 2000;
+}
+h3{
+    margin-left: 30px;
+}
+h2{
+    display: inline-block;
+    margin-left: 30px;
+}
+.mi-nombre{
+    color: #28a16c;
+    margin-left: 5px;
+    font-size: 2rem;
+}
+.type-text{
+    color: #28a16c;
+    padding-top: 20px;
+    font-size: 1.4rem;
+    margin-left: 30px;
+}
+.home-image{
+    height: 370px;
+    width: 360px;
+    position: relative;
+    top: -31px;
+    left: 15px;
+    z-index: 1000;
+}
