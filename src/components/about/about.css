@@ -1,0 +1,32 @@
+div#about{
+    padding-top: 120px;
+}
+.about-title{
+    text-align: center;
+    padding: 5px;
+    font-size: 2.4em;
+}
+p{
+    padding-top: 12px;
+    color: #28a16c;
+}
+.about-description{
+    color: #333;
+    font-size: 1.2em;
+    padding-top: 60px;
+    text-align: left;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+b{
+    color: #28a16c;
+}
+.img-container{
+    width: 500px;
+    height: 500px;
+    margin-left: -100px;
+}
+.about-photo{
+    width: 100%;
+}
