@@ -35,7 +35,7 @@ b{
 }
 @media(min-width:768px){
     div#about{
-        padding-top: 135px;
+        margin-top: 59px;
     }
     .about-photo {
         width: 100%;

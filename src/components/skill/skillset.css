@@ -1,5 +1,5 @@
 #skills{
-    padding-top: 60px;
+    padding-top: 40px;
 }
 .skill-title{
     text-align: center;
@@ -25,4 +25,9 @@ svg.svg-inline--fa.fa-html5, svg.svg-inline--fa.fa-css3-alt, svg.svg-inline--fa.
     padding-top: 25px;
     margin: 20px;
     box-shadow: 2px 3px 3px 2px #28a16c;
+}
+@media(min-width:768px){
+    #skills{
+        margin-top: -350px;
+    }
 }
