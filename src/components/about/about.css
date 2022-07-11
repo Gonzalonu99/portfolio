@@ -1,9 +1,8 @@
 div#about{
-    padding-top: 130px;
+    padding-top: 80px;
 }
 .about-title{
     text-align: center;
-    padding: 5px;
     font-size: 2.4em;
 }
 .span-title{
@@ -16,7 +15,7 @@ div#about{
 .about-description{
     color: #333;
     font-size: 1.2em;
-    padding-top: 60px;
+    padding-top: 40px;
     text-align: left;
     position: relative;
     padding-left: 13px;
@@ -35,6 +34,9 @@ b{
     width: 100%;
 }
 @media(min-width:768px){
+    div#about{
+        padding-top: 135px;
+    }
     .about-photo {
         width: 100%;
         position: relative;
