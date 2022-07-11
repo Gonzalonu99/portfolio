@@ -4,7 +4,9 @@ import AboutPhoto from '../../images/foto-circular.png'
 const AboutMe = () => {
   return (
     <div id='about' className='about-section'>
-      <h1 className='about-title'>LET ME<p>INTRODUCE</p>MYSELF</h1>
+      <h2 className='about-title'>
+        LET ME  <span className='span-title'>INTRODUCE</span>  MYSELF
+      </h2>
       <p className='about-description'>I am <b>Gonzalo</b>, and I am 23 years old, from <b>Buenos Aires</b>. During the quarantine I discovered my passion for web programming and my life changed.
       <br />
       <br />

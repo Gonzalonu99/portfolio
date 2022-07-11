@@ -1,12 +1,15 @@
 div#about{
-    padding-top: 120px;
+    padding-top: 135px;
 }
 .about-title{
     text-align: center;
     padding: 5px;
     font-size: 2.4em;
 }
-p{
+.span-title{
+    color: #28a16c;
+}
+.b-title{
     padding-top: 12px;
     color: #28a16c;
 }
@@ -23,10 +26,40 @@ b{
     color: #28a16c;
 }
 .img-container{
-    width: 500px;
-    height: 500px;
-    margin-left: -100px;
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
 }
 .about-photo{
     width: 100%;
+}
+@media(min-width:768px){
+    .about-photo {
+        width: 100%;
+        position: relative;
+        left: 150px;
+        bottom: 450px;
+        z-index: 5000;
+    }
+    .about-description{
+        max-width: 400px;
+        z-index: 6000;
+    }
+}
+@media(min-width:1024px){
+    .about-photo {
+        width: 100%;
+        position: relative;
+        left: 300px;
+        bottom: 350px;
+    }
+    .about-description{
+        max-width: 700px;
+    }
+}
+@media(max-width:378px){
+    .img-container{
+        margin-left: -40px;
+    }
 }
