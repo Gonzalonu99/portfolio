@@ -1,3 +1,6 @@
+.skill-title{
+    margin-top: 80px;
+}
 .carousel-container{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -41,4 +44,17 @@ a{
 .demo-link-button{
     margin-left: 22%;
     background-color: #28a16c;
+}
+@media(min-width:1024px ){
+    button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+        position: absolute;
+        left: -140px;
+    }
+    .carousel-container{
+        margin-left: 40px;
+    }
+}
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    position: absolute;
+    right: 23px;
 }

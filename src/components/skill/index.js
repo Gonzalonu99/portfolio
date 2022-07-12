@@ -49,7 +49,7 @@ const Skillset = () => {
           <h5 className='skill-name'>Flutter</h5>
         </div>
       </div>
-      <h1 className='skill-title'><span className='span-title'>Tools</span>  I Use</h1>
+      <h1 className='skill-title skill-subtitle'><span className='span-title'>Tools</span>  I Use</h1>
       <div className='icons-container'>
         <div className='skill-card'>
           <div className='icon-div'><img src={PostmanIcon}/></div>

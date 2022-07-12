@@ -60,6 +60,9 @@ b{
     .about-description{
         max-width: 700px;
     }
+    .about-title{
+        padding-left: 17px;
+    }
 }
 @media(max-width:378px){
     .img-container{

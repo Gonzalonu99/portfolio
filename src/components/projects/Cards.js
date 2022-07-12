@@ -4,21 +4,22 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 import CalculatorPhoto from '../../images/calculator.png'
 import ClimaPhoto from '../../images/clima.png'
+import WinesPhoto from '../../images/wines.png'
 
 const responsive = {
     desktop: {
         breakpoint: {max: 3000, min: 1024},
-        items: 3
+        items: 3,
     },
     tablet: {
         breakpoint: {max: 1024, min: 464},
-        items:2,
-        partialVisibilityGutter: 100
+        items:3,
+        partialVisibilityGutter: -100
     },
     mobile: {
         breakpoint: {max:464, min:0},
         items: 1,
-        partialVisibilityGutter:100
+        partialVisibilityGutter:110
     }
 };
 const Gallery = ()=>{
@@ -55,26 +56,26 @@ const Gallery = ()=>{
                 <h5 className="card-subtitle">Weather App</h5>
                 <button className="repo-link-button">
                     <a href="https://github.com/Gonzalonu99/weather-app">
-                        <FontAwesomeIcon icon=      {faArrowUpRightFromSquare}/>  View Repository
+                        <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>  View Repository
                     </a>
                 </button>
                 <button className="demo-link-button">
                     <a href="">
-                        <FontAwesomeIcon icon=      {faArrowUpRightFromSquare}/>  View Project
+                        <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>  View Project
                     </a>
                 </button>
             </div>
             <div className="card-container" id="projects/numen-wines">
-                <div className="img-card-container"><img className="card-img" src={ClimaPhoto}   alt="clima" /></div>
+                <div className="img-card-container"><img className="card-img" src={WinesPhoto}   alt="clima" /></div>
                 <h5 className="card-subtitle">Wineries Page</h5>
                 <button className="repo-link-button">
                     <a href="">
-                        <FontAwesomeIcon icon=      {faArrowUpRightFromSquare}/>  View Repository
+                        <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>  View Repository
                     </a>
                 </button>
                 <button className="demo-link-button">
                     <a href="">
-                        <FontAwesomeIcon icon=      {faArrowUpRightFromSquare}/>  View Project
+                        <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>  View Project
                     </a>
                 </button>
             </div>
