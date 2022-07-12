@@ -45,6 +45,10 @@ a{
     margin-left: 22%;
     background-color: #28a16c;
 }
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    position: absolute;
+    right: 23px;
+}
 @media(min-width:1024px ){
     button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
         position: absolute;
@@ -54,7 +58,19 @@ a{
         margin-left: 40px;
     }
 }
-button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
-    position: absolute;
-    right: 23px;
+@media(min-width:1100px){
+    button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+        position: absolute;
+        left: -148px;
+    }
+    button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+        position: absolute;
+        right: 35px;
+    }
+}
+@media(min-width:1200px){
+    button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+        position: absolute;
+        left: -198px;
+    }
 }
