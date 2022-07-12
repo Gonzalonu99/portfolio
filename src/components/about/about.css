@@ -49,6 +49,9 @@ b{
         max-width: 400px;
         z-index: 6000;
     }
+    .about-title{
+        padding-left: 17px;
+    }
 }
 @media(min-width:1024px){
     .about-photo {
