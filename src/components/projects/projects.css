@@ -1,0 +1,44 @@
+.carousel-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px
+}
+.card-container{
+    border: solid #444 3px;
+    width: 240px;
+    height: 400px;
+    border-radius: 12px;
+    font-size: small;
+    background-color: #d6eee4;
+    box-shadow: 6px 8px 20px 2px #666;
+}
+.img-card-container{
+    width: 100%;
+    padding: 12px;
+}
+.card-img{
+    border-radius: 10px;
+    height: 180px;
+}
+.card-subtitle{
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: -10px;
+}
+button{
+    margin-left: 15%;
+    height: 45px;
+    width: auto;
+    margin-top: 30px ;
+    margin-bottom: -10px;
+    border-radius: 8px;
+}
+a{
+    font-size: large;
+    text-decoration: none;
+    color: #000;
+}
+.demo-link-button{
+    margin-left: 22%;
+    background-color: #28a16c;
+}
