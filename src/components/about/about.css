@@ -4,6 +4,7 @@ div#about{
 .about-title{
     text-align: center;
     font-size: 2.4em;
+    margin-left: -5px;
 }
 .span-title{
     color: #28a16c;
