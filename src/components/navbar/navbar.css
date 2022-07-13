@@ -16,6 +16,7 @@
 }
 .navbar-toggler{
     margin-right: 5px;
+    margin-top: -5px;
 }
 .dropdown-menu{
     background-color: #57bc90;
