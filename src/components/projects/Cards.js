@@ -23,6 +23,29 @@ const responsive = {
     }
 };
 const Gallery = ()=>{
+    const cartas = [
+        {
+            id: "projects/calculator",
+            img: CalculatorPhoto,
+            title: "Calculator App",
+            repoLink: "https://github.com/Gonzalonu99/calculator-app",
+            demoLink: ""
+        },
+        {
+            id: "projects/weather-app",
+            img: ClimaPhoto,
+            title: "Weather App",
+            repoLink: "https://github.com/Gonzalonu99/weather-app",
+            demoLink: ""
+        },
+        {
+            id: "projects/numen-wines",
+            img: WinesPhoto,
+            title: "Wineries Page",
+            repoLink: "",
+            demoLink: ""
+        }
+    ]
     return(
        <Carousel
             responsive={responsive}
@@ -37,48 +60,24 @@ const Gallery = ()=>{
             removeArrowOnDeviceType={["tablet","mobile"]}
             itemClass="carousel-item-padding-40-px"
         >
-            <div className="card-container" id="projects/calculator">
-                <div className="img-card-container"><img className="card-img" src={CalculatorPhoto}   alt="calculator" /></div>
-                <h5 className="card-subtitle">Calculator App</h5>
-                <button className="repo-link-button">
-                    <a href="https://github.com/Gonzalonu99/calculator-app">
-                        <FontAwesomeIcon icon=      {faArrowUpRightFromSquare}/>  View Repository
-                    </a>
-                </button>
-                <button className="demo-link-button">
-                    <a href="">
-                        <FontAwesomeIcon icon=      {faArrowUpRightFromSquare}/>  View Project
-                    </a>
-                </button>
-            </div>
-            <div className="card-container" id="projects/weather-app">
-                <div className="img-card-container"><img className="card-img" src={ClimaPhoto}   alt="clima" /></div>
-                <h5 className="card-subtitle">Weather App</h5>
-                <button className="repo-link-button">
-                    <a href="https://github.com/Gonzalonu99/weather-app">
+            {cartas.map((carta)=>(
+                <div className="card-container" key={carta.id}>
+                    <div className="img-card-container">
+                        <img src={carta.img} alt="img" className="card-img"/>
+                    </div>
+                    <h5 className="card-subtitle">{carta.title}</h5>
+                    <button className="repo-link-button">
+                        <a href={carta.repoLink}>
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>  View Repository
-                    </a>
-                </button>
-                <button className="demo-link-button">
-                    <a href="">
+                        </a>
+                    </button>
+                    <button className="demo-link-button">
+                        <a href={carta.demoLink}>
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>  View Project
-                    </a>
-                </button>
-            </div>
-            <div className="card-container" id="projects/numen-wines">
-                <div className="img-card-container"><img className="card-img" src={WinesPhoto}   alt="clima" /></div>
-                <h5 className="card-subtitle">Wineries Page</h5>
-                <button className="repo-link-button">
-                    <a href="">
-                        <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>  View Repository
-                    </a>
-                </button>
-                <button className="demo-link-button">
-                    <a href="">
-                        <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>  View Project
-                    </a>
-                </button>
-            </div>
+                        </a>
+                    </button>
+                </div>
+            ))}
         </Carousel> 
     )
 
