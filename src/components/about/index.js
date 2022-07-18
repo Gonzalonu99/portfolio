@@ -16,7 +16,7 @@ const AboutMe = () => {
         In addition, I contribute to the development of a <b>mobile app with Flutter</b> for the argentine startup Autoshop 360.
         <br />
         <br />
-        Every day I seek to learn new things to be able to contribute my grain of sand and help the development of this beautiful world.</p>
+        Every day I seek to learn new things to be able to make my contribution and help the development of this beautiful world.</p>
         <div className='img-container'><img src={AboutPhoto} className='about-photo' /></div>
     </div>
   )

@@ -41,7 +41,7 @@ const Gallery = ()=>{
         {
             id: "projects/numen-wines",
             img: WinesPhoto,
-            title: "Wineries Page",
+            title: "Numen Wines",
             repoLink: "",
             demoLink: ""
         }

@@ -1,4 +1,5 @@
 import AboutMe from "./components/about";
+import FooterSection from "./components/footer";
 import HomeSection from "./components/home";
 import NavBar from "./components/navbar";
 import ProjectSection from "./components/projects";
@@ -12,6 +13,7 @@ function App() {
       <AboutMe/>
       <Skillset/>
       <ProjectSection/>
+      <FooterSection/>
     </div>
   );
 }
