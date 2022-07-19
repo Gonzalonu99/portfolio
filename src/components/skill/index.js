@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Css from './icons/Css'
 import Html from './icons/Html'
 import JavaScript from './icons/JavaScript'
@@ -10,12 +10,17 @@ import Git from './icons/Git'
 import FlutterIcon from '../../images/flutter_logo_icon.png'
 import PostmanIcon from '../../images/postman-icon.png'
 import VisualStudioIcon from '../../images/visual-studio-icon.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Skillset = () => {
+  useEffect(() => {
+    Aos.init({duration:800})
+  }, []);
   return (
-    <div id='skills' className='skill-section'>
+    <div id='skills' className='skill-section' data-aos="fade-up">
       <h1 className='skill-title'>Professional  <span className='span-title'>Skillset</span></h1>
-      <div className='icons-container'>
+      <div className='icons-container' data-aos="zoom-in-down" data-aos-duration={1300}>
         <div className='skill-card'>
           <div className='icon-div'><Html /></div>
           <h5 className='skill-name'>HTML5</h5>
@@ -50,7 +55,7 @@ const Skillset = () => {
         </div>
       </div>
       <h1 className='skill-title skill-subtitle'><span className='span-title'>Tools</span>  I Use</h1>
-      <div className='icons-container'>
+      <div className='icons-container' data-aos="zoom-in-up" data-aos-duration={1000}>
         <div className='skill-card'>
           <div className='icon-div'><img src={PostmanIcon}/></div>
           <h5 className='skill-name'>Postman</h5>
