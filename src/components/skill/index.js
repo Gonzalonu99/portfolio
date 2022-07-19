@@ -15,12 +15,12 @@ import 'aos/dist/aos.css'
 
 const Skillset = () => {
   useEffect(() => {
-    Aos.init({duration:800})
+    Aos.init({duration:1000})
   }, []);
   return (
     <div id='skills' className='skill-section' data-aos="fade-up">
       <h1 className='skill-title'>Professional  <span className='span-title'>Skillset</span></h1>
-      <div className='icons-container' data-aos="zoom-in-down" data-aos-duration={1300}>
+      <div className='icons-container' data-aos="zoom-in-down" data-aos-duration={1800}>
         <div className='skill-card'>
           <div className='icon-div'><Html /></div>
           <h5 className='skill-name'>HTML5</h5>
@@ -55,7 +55,7 @@ const Skillset = () => {
         </div>
       </div>
       <h1 className='skill-title skill-subtitle'><span className='span-title'>Tools</span>  I Use</h1>
-      <div className='icons-container' data-aos="zoom-in-up" data-aos-duration={1000}>
+      <div className='icons-container' data-aos="zoom-in-up" data-aos-duration={1500}>
         <div className='skill-card'>
           <div className='icon-div'><img src={PostmanIcon}/></div>
           <h5 className='skill-name'>Postman</h5>
