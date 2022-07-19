@@ -7,9 +7,9 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import Icon from './Icon'
 const NavBar = () => {
     const projects = [
-        {id:'calculadora', title: 'Calculator', ref: '#projects/calculator'},
-        {id:'clima', title:'Weather App', ref:'#projects/weather-app'},
-        {id:'numen-vinos', title:'Numen Wines', ref:'#projects/numen-wines'}
+        {id:'calculadora', title: 'Calculator', refId: '#projects/calculator'},
+        {id:'clima', title:'Weather App', refId:'#projects/weather-app'},
+        {id:'numen-vinos', title:'Numen Wines', refId:'#projects/numen-wines'}
     ]
   return (
     <div>
@@ -23,12 +23,11 @@ const NavBar = () => {
                 <NavLink  href='#about'>About</NavLink>
                 <NavLink href='#skills'>Skills</NavLink>
                     <NavDropdown  href='#projects' title='Projects'>
-                        {projects.map((project)=><NavDropdown.Item href={project.ref} key={project.id}>{project.title}</NavDropdown.Item>)}
+                        {projects.map((project)=><NavDropdown.Item href={project.refId} key={project.id}>{project.title}</NavDropdown.Item>)}
                     </NavDropdown>
-                <NavLink className='contact-button'    href='#contact'>Contact</NavLink>
+                <NavLink className='contact-button' href='#contact'>Contact</NavLink>
                 </Nav> 
             </NavbarCollapse>
-            
         </Navbar>
     </div>
   )

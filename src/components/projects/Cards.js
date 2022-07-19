@@ -5,6 +5,9 @@ import {faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 import CalculatorPhoto from '../../images/calculator.png'
 import ClimaPhoto from '../../images/clima.png'
 import WinesPhoto from '../../images/wines.png'
+import { useEffect } from "react";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const responsive = {
     desktop: {
@@ -23,6 +26,9 @@ const responsive = {
     }
 };
 const Gallery = ()=>{
+    useEffect(() => {
+        Aos.init({duration:1000})
+      }, []);
     const cartas = [
         {
             id: "projects/calculator",
@@ -61,7 +67,7 @@ const Gallery = ()=>{
             itemClass="carousel-item-padding-40-px"
         >
             {cartas.map((carta)=>(
-                <div className="card-container" key={carta.id}>
+                <div className="card-container" key={carta.id} data-aos="fade-up">
                     <div className="img-card-container">
                         <img src={carta.img} alt="img" className="card-img"/>
                     </div>
