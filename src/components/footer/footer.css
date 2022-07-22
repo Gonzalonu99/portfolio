@@ -1,5 +1,6 @@
 #contact{
-    background-color: #57bc90;
+    background: rgb(56,180,143);
+    background: linear-gradient( rgba(56,180,143,1) 0%, rgba(40,161,108,1) 62%);
     width: 100%;
     height: auto;
     text-align: center;
