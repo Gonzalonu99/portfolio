@@ -35,21 +35,21 @@ const Gallery = ()=>{
             img: CalculatorPhoto,
             title: "Calculator App",
             repoLink: "https://github.com/Gonzalonu99/calculator-app",
-            demoLink: ""
+            demoLink: "https://nunez-calculator.web.app"
         },
         {
             id: "projectsWeather-app",
             img: ClimaPhoto,
             title: "Weather App",
             repoLink: "https://github.com/Gonzalonu99/weather-app",
-            demoLink: ""
+            demoLink: "https://nunez-weatherapp.web.app"
         },
         {
             id: "projectsNumen-wines",
             img: WinesPhoto,
             title: "Numen Wines",
             repoLink: "https://github.com/Gonzalonu99/numen-wines",
-            demoLink: ""
+            demoLink: "https://numenwines.web.app/"
         }
     ]
     return(
