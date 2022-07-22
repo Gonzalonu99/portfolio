@@ -7,9 +7,9 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import Icon from './Icon'
 const NavBar = () => {
     const projects = [
-        {id:'calculadora', title: 'Calculator', refId: '#projects/calculator'},
-        {id:'clima', title:'Weather App', refId:'#projects/weather-app'},
-        {id:'numen-vinos', title:'Numen Wines', refId:'#projects/numen-wines'}
+        {id:'calculadora', title: 'Calculator', refId: '#projectsCalculator'},
+        {id:'clima', title:'Weather App', refId:'#projectsWeather-app'},
+        {id:'numen-vinos', title:'Numen Wines', refId:'#projectsNumen-wines'}
     ]
   return (
     <div>

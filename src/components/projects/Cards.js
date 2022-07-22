@@ -31,21 +31,21 @@ const Gallery = ()=>{
       }, []);
     const cartas = [
         {
-            id: "projects/calculator",
+            id: "projectsCalculator",
             img: CalculatorPhoto,
             title: "Calculator App",
             repoLink: "https://github.com/Gonzalonu99/calculator-app",
             demoLink: ""
         },
         {
-            id: "projects/weather-app",
+            id: "projectsWeather-app",
             img: ClimaPhoto,
             title: "Weather App",
             repoLink: "https://github.com/Gonzalonu99/weather-app",
             demoLink: ""
         },
         {
-            id: "projects/numen-wines",
+            id: "projectsNumen-wines",
             img: WinesPhoto,
             title: "Numen Wines",
             repoLink: "https://github.com/Gonzalonu99/numen-wines",
