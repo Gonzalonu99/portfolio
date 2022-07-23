@@ -5,6 +5,7 @@ import {faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 import CalculatorPhoto from '../../images/calculator.png'
 import ClimaPhoto from '../../images/clima.png'
 import WinesPhoto from '../../images/wines.png'
+import BackendPhoto from '../../images/proyecto-backend.png'
 import { useEffect } from "react";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -50,6 +51,13 @@ const Gallery = ()=>{
             title: "Numen Wines",
             repoLink: "https://github.com/Gonzalonu99/numen-wines",
             demoLink: "https://numenwines.web.app/"
+        },
+        {
+            id: "projectsMongoDB",
+            img: BackendPhoto,
+            title: "Cymbals CRUD",
+            repoLink: "https://github.com/Gonzalonu99/backend-express-mongoDB",
+            demoLink: ""
         }
     ]
     return(
