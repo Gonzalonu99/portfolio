@@ -1,4 +1,5 @@
 import AboutMe from "./components/about";
+import DownloadButton from "./components/cv";
 import FooterSection from "./components/footer";
 import HomeSection from "./components/home";
 import NavBar from "./components/navbar";
@@ -13,6 +14,7 @@ function App() {
       <AboutMe/>
       <Skillset/>
       <ProjectSection/>
+      <DownloadButton/>
       <FooterSection/>
     </div>
   );

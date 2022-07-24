@@ -1,0 +1,30 @@
+.cv-div-button{
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    padding-bottom: 50px;
+}
+.download-cv{
+    width: 170px;
+    height: 60px;
+    margin-bottom: 5px;
+    background-color: #28a16c;
+    border: 1.6px solid;
+    font-weight: 600;
+}
+.download-text{
+    color: #fff;
+}
+.download-text:hover{
+    color: #333;
+}
+@media(min-width:768px){
+    .cv-div-button{
+        margin-right: 100px;
+    }
+}
+@media(min-width:1024px){
+    .cv-div-button{
+        margin-right: 150px;
+    }
+}
