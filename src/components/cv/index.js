@@ -4,7 +4,7 @@ import './styles.css'
 const DownloadButton = () => {
   return (
     <div className='cv-div-button'>
-        <button className='download-cv'><a href="" className='download-text' download>Download CV</a></button>
+        <button className='download-cv'><a href="./GonzaloNunezResume.pdf" className='download-text' download>Download CV</a></button>
     </div>
   )
 }
