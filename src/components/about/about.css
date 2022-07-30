@@ -36,7 +36,7 @@ b{
     max-width: 500px;
     max-height: 500px;
     position: relative;
-    right: 30px;
+    right: 32px;
 }
 @media(min-width:768px){
     div#about{
