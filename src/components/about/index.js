@@ -17,8 +17,6 @@ const AboutMe = () => {
       <br />
         I finished my degree in <b>Fullstack developer at Numen Academy</b>  and I am currently dedicated to programming in <b>JavaScript</b>.
         I have knowledge in <b>React Js</b> for Frontend, and <b>Node Js</b> for Backend.
-        <br /> 
-        In addition, I contribute to the development of a <b>mobile app with Flutter</b> for the argentine startup Autoshop 360.
         <br />
         <br />
         Every day I seek to learn new things to be able to make my contribution and help the development of this beautiful world.</p>
