@@ -6,6 +6,7 @@ import CalculatorPhoto from '../../images/calculator.png'
 import ClimaPhoto from '../../images/clima.png'
 import WinesPhoto from '../../images/wines.png'
 import BackendPhoto from '../../images/proyecto-backend.png'
+import AutoshopPhoto from '../../images/autoshop.png'
 import { useEffect } from "react";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -58,6 +59,13 @@ const Gallery = ()=>{
             title: "Cymbals CRUD",
             repoLink: "https://github.com/Gonzalonu99/backend-express-mongoDB",
             demoLink: ""
+        },
+        {
+            id: "Autoshop",
+            img: AutoshopPhoto,
+            title: "AutoShop web",
+            repoLink: "https://github.com/Gonzalonu99/autoshop-web",
+            demoLink:"http://a365.com.ar/"
         }
     ]
     return(
