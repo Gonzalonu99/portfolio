@@ -1,19 +1,20 @@
-import AboutMe from "./components/about";
-import FooterSection from "./components/footer";
+import Education from "./components/education";
+import Footer from "./components/footer";
 import HomeSection from "./components/home";
-import NavBar from "./components/navbar";
+import ResponsiveAppBar from "./components/navbar";
 import ProjectSection from "./components/projects";
-import Skillset from "./components/skill";
+import Skills from "./components/skills";
+import './index.css';
 
 function App() {
   return (
     <div>
-      <NavBar/>
+      <ResponsiveAppBar/>
       <HomeSection/>
-      <AboutMe/>
-      <Skillset/>
+      <Education/>
+      <Skills/>
       <ProjectSection/>
-      <FooterSection/>
+      <Footer/>
     </div>
   );
 }
