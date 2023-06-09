@@ -1,0 +1,151 @@
+#education{
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    left: -8px;
+    overflow-x: hidden;
+    background-color: #000;
+}
+.fade-in {
+    opacity: 0.5;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+.ed-st-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: -20px;
+  }
+  
+  .education-subtitle {
+    text-align: center;
+    color: #046380;
+  }
+  .mise-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center !important;
+    width: auto !important;
+  }
+.mise-box{
+    border: 2px solid #046380;
+    width: 320px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.mise-carrera{
+    color: #046380;
+}
+.mise-año{
+    color: #F2F2F2;
+}
+.mise-place{
+    color: #F2F2F2;
+}
+@media(max-width:767px){
+    #education{
+        height: 89vh;
+    }
+    .estu-cont{
+        margin-top: 80px;
+    }
+    .ed-st-container{
+        margin-top: 90px;
+    }
+    .mise-box{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mise-carrera{
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+@media(min-width:768px) and (max-width:959px){
+    #education{
+        height: 89vh;
+    }
+    .estu-cont{
+        margin-top: 90px;
+    }
+    .ed-st-container{
+        margin-top: 120px;
+    }
+    .mise-box{
+        width: 500px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mise-carrera{
+        font-size: 25px !important;
+    }
+    .mise-año{
+        font-size: 15px !important;
+    }
+    .mise-place{
+        font-size: 20px !important;
+    }
+}
+@media(min-width:960px) and (max-width:1199px){
+    #education{
+        height: 100vh;
+    }
+    .estu-cont{
+        margin-top: 80px;
+    }
+    .mise-box{
+        width: 500px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mise-carrera{
+        font-size: 25px !important;
+    }
+    .mise-año{
+        font-size: 15px !important;
+    }
+    .mise-place{
+        font-size: 20px !important;
+    }
+}
+@media(min-width:1200px){
+    #education{
+        height: 100vh;
+    }
+    .ed-st-container{
+        margin-top: 80px;
+    }
+    .estu-cont{
+        margin-top: 50px;
+    }
+    .mise-box{
+        width: 500px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mise-carrera{
+        font-size: 25px !important;
+    }
+    .mise-año{
+        font-size: 15px !important;
+    }
+    .mise-place{
+        font-size: 20px !important;
+    }
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0.5;
+      background-color: #dae9ee !important;
+    }
+    100% {
+      opacity: 1;
+      background-color: transparent !important;
+    }
+  }  
