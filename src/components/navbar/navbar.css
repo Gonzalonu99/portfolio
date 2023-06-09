@@ -1,39 +1,38 @@
-.bg-myColor{
-    background-color: #57bc90;
+.menu-item:hover{
+    color: #046380;
+    position: relative;
 }
-.navbar{
+.menu-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-}
-.navbar-brand{
-    padding-left: 13px;
-    font-size:larger;
-    display: inline-flex;
-    padding: 8px;
-}
-.navbar-nav{
-    padding-left: 8px;
-    font-size: 15px;
-}
-.navbar-toggler{
-    margin-right: 5px;
-    margin-top: -5px;
-}
-.dropdown-menu{
-    background-color: #57bc90;
-    border: none;
-    font-size: 13px;
-}
-.dropdown-item:hover{
-    background-color: #57bc90;
-    color: #fff;
-}
-@media(min-width: 576px){
-    .nav-link{
-        margin-left: 45px;
+    height: 2px;
+    background-color: #046380;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item:hover::after {
+    transform: scaleX(1);
+  }
+  .descargaCV:hover {
+    background-color: #046380 !important;
+    color: #fff !important; 
+  }
+  @media (max-width: 767px) {
+    .logo-apellido .full-name {
+      display: none;
     }
-    .navbar-collapse{
-        justify-content: flex-end;
-        margin-right: 20px;
-    }    
-}
+  }
+@media(min-width: 768px) {
+  .logo-apellido .initial {
+    display: none;
+  }
+}  
+  
 
+  
+  
