@@ -137,3 +137,38 @@
         top: -125px;
     }
 }
+@media(min-width:1500px){
+    .logo-footer-container{
+        left: -10%;
+        top: 30px;
+    }
+    .footer-logo{
+        width: 20rem !important;
+    }
+    .footer-logo-text{
+        position: relative;
+        top: 150px;
+        right: 90px;
+        font-size: 55px !important;
+        height: fit-content;
+    }
+    .social-icons-container{
+        position: relative;
+        left: 1%;
+        top: 15px;
+    }
+    .social-icon{
+        font-size: 55px !important;
+    }
+    .footer-list-con{
+        position: relative;
+        right: -3% !important;
+        top: -200px;
+    }
+    .footer-item-text{
+        font-size: 27px !important;
+    }
+    .ft-rights-text{
+        font-size: 25px !important;
+    }
+}

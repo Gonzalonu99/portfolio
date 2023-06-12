@@ -13,12 +13,12 @@ import BuildRoundedIcon from "@mui/icons-material/BuildRounded";
 const SkillBoxes = () => {
   const skillArray = [
     {
-      icon: <StorageRoundedIcon sx={{ fontSize: "50px" }} />,
+      icon: <StorageRoundedIcon sx={{ fontSize: "50px" }} className="sk-icon-pr"/>,
       category: "Back-End",
       skills: ["Node.js", "Express.js", "MongoDB", "GraphQL"],
     },
     {
-      icon: <DesktopMacRoundedIcon sx={{ fontSize: "50px" }} />,
+      icon: <DesktopMacRoundedIcon sx={{ fontSize: "50px" }} className="sk-icon-pr"/>,
       category: "Front-End",
       skills: [
         "HTML5 / CSS3",
@@ -28,7 +28,7 @@ const SkillBoxes = () => {
       ],
     },
     {
-      icon: <BuildRoundedIcon sx={{ fontSize: "50px" }} />,
+      icon: <BuildRoundedIcon sx={{ fontSize: "50px" }} className="sk-icon-pr"/>,
       category: "Tools",
       skills: ["GIT", "GitHub", "Postman", "Visual Studio"],
     },
@@ -94,6 +94,7 @@ const SkillBoxes = () => {
             {skill.icon}
           </Box>
           <Typography
+            className="sk-category-name"
             variant="h4"
             sx={{
               fontWeight: "bold",
@@ -110,6 +111,7 @@ const SkillBoxes = () => {
                   <span className="sk-list-icon">▶</span>
                 </ListItemIcon>
                 <Typography
+                  className="sk-list-text"
                   variant="body1"
                   component="span"
                   sx={{

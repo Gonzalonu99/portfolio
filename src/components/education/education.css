@@ -139,6 +139,30 @@
         font-size: 20px !important;
     }
 }
+@media(min-width:1500px){
+    .ed-st-container{
+        margin-top: 140px;
+    }
+    .education-subtitle{
+        font-size: 90px !important;
+    }
+    .mise-box{
+        width: 750px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25px;
+    }
+    .mise-carrera{
+        font-size: 40px !important;
+    }
+    .mise-año{
+        font-size: 30px !important;
+    }
+    .mise-place{
+        font-size: 35px !important;
+    }
+}
 @keyframes fadeIn {
     0% {
       opacity: 0.5;
