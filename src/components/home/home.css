@@ -195,14 +195,14 @@
   }
   .home-h1-box{
     left: 12%;
-    top: 170px;
+    top: 150px;
   }
   .home-fs-subtitle {
     left: 12%;
-    top: 150px;
+    top: 130px;
   }
   .home-text-btn-box {
-    padding-top: 220px;
+    padding-top: 200px;
     padding-right: 20px;
     left: 12%;
   }
@@ -225,7 +225,7 @@
   .img-logo-container{
     width: 500px !important;
     position: relative !important;
-    top: -680px;
+    top: -700px;
     left: 1100px;
   }
 }
