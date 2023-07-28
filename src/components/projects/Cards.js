@@ -9,7 +9,7 @@ const Projects = () => {
       id: "Autoshop",
       img: AutoshopPhoto,
       title: "AutoShop-365",
-      link: "http://a365.com.ar/",
+      link: "https://a365.com.ar/",
     },
     {
       id: "projectsWeather-app",
